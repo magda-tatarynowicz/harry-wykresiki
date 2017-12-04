@@ -26,7 +26,52 @@ read_text_frame <- function(title){
   text <- data.frame(person = rep(text$person, sapply(s, length)), line = unlist(s))
   
   text
+}
+
+read_text_frame_no_colons <- function(title) {
+  text <- read_file(title)
+  text_split <- unlist(strsplit(text, "\r\n"))
+  text_frame <- NULL
+  row <- NULL
+  for (i in 1:length(text_split)) {
+    line <- text_split[i]
+    if(line!="" & grepl("^[A-Z\\. ]*$", line)) {
+      row$person = line
+    }
+    else  {
+      if(line == "") {
+        if(!is.null(row$person) & !is.null(row$line)) {
+          text_frame <- rbind(text_frame, row)
+        }
+        row <- NULL
+      }
+      else {
+        row$line = ifelse(is.null(row$line), line, paste(row$line, line))
+      }
+    }
   }
+  
+  rownames(text_frame) <- NULL
+  text <- as.data.frame(text_frame, stringsAsFactors=FALSE)
+  text$person <- as.character(text$person)
+  text$line <- as.character(text$line)
+  
+  for(i in 1:nrow(text)) {
+    row <- text[i,]
+    if(row[1] == row[2]){
+      text[i,1] <- ""
+    }
+    text[i,2] <- gsub('[.,!?]', '', text[i,2])
+  }
+
+  s <- strsplit(text$line, split = " ")
+  text <- data.frame(person = rep(text$person, sapply(s, length)), line = unlist(s))
+  
+  text
+}
+
 
 part1 <- read_text_frame("the Philosophers Stone.txt")
 part2 <- read_text_frame("the Chamber of Secrets.txt")
+
+part4 <- read_text_frame_no_colons("the Goblet of Fire.txt")
