@@ -15,11 +15,18 @@ read_text_frame <- function(title){
   for(i in 1:nrow(text)) {
     row <- text[i,]
     if(row[1] == row[2]){
-      text[i,1] = ""
+      text[i,1] <- ""
     }
+    text[i,2] <- gsub('[.,!?]', '', text[i,2])
   }
+  
+  # Jak chcemy mieć jedną wypowiedź na wiersz to trzeba dwie linijki poniżej usunąć
+  # Teraz zostawiam słowo na wiersz
+  s <- strsplit(text$line, split = " ")
+  text <- data.frame(person = rep(text$person, sapply(s, length)), line = unlist(s))
+  
   text
-}
+  }
 
 part1 <- read_text_frame("the Philosophers Stone.txt")
 part2 <- read_text_frame("the Chamber of Secrets.txt")
