@@ -8,24 +8,24 @@ read_text_frame <- function(title){
   text_frame <- data.frame(line = as.character(text_frame[!apply(text_frame, 1, function(x) grepl("^\\s*$", x) | x == '----------'),]), stringsAsFactors=FALSE)
   text <- do.call(rbind.data.frame, apply(text_frame, 1, function(x) unlist(strsplit(x, ":"))))
   text <- text[,-3]
-  colnames(text) <- c("person", "line")
+  colnames(text) <- c("person", "word")
   text$person <- as.character(text$person)
-  text$line <- as.character(text$line)
+  text$word <- as.character(text$word)
   
   for(i in 1:nrow(text)) {
     row <- text[i,]
     if(row[1] == row[2]){
       text[i,1] <- ""
     }
-    text[i,2] <- gsub('[.,!?]', '', text[i,2])
+    text[i,2] <- tolower(gsub('[.,!?]', '', text[i,2]))
   }
   
   # Jak chcemy mieć jedną wypowiedź na wiersz to trzeba dwie linijki poniżej usunąć
   # Teraz zostawiam słowo na wiersz
-  s <- strsplit(text$line, split = " ")
-  text <- data.frame(person = rep(text$person, sapply(s, length)), line = unlist(s))
+  s <- strsplit(text$word, split = " ")
+  text <- data.frame(person = rep(text$person, sapply(s, length)), word = unlist(s))
   
-  text
+  text %>% filter(word != "" & person != "" & !grepl("Scene", person) & person != "LOCATION")
 }
 
 read_text_frame_no_colons <- function(title) {
@@ -61,11 +61,11 @@ read_text_frame_no_colons <- function(title) {
     if(row[1] == row[2]){
       text[i,1] <- ""
     }
-    text[i,2] <- gsub('[.,!?]', '', text[i,2])
+    text[i,2] <- tolower(gsub('[.,!?]', '', text[i,2]))
   }
 
   s <- strsplit(text$line, split = " ")
-  text <- data.frame(person = rep(text$person, sapply(s, length)), line = unlist(s))
+  text <- data.frame(person = rep(text$person, sapply(s, length)), word = unlist(s))
   
   text
 }
