@@ -35,7 +35,7 @@ read_text_frame_no_colons <- function(title) {
   row <- NULL
   for (i in 1:length(text_split)) {
     line <- text_split[i]
-    if(line!="" & grepl("^[A-Z\\. ]*$", line)) {
+    if(line!="" & grepl("^[A-Z\\. ]*-?[A-Z\\. ]*$", line)) {
       row$person = line
     }
     else  {
