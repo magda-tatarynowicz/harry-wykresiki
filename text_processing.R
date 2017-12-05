@@ -77,7 +77,7 @@ read_plain_text <- function(title){
   text_frame <- data.frame(line = as.character(text_frame[!apply(text_frame, 1, function(x) grepl("^\\s*$", x) | x == '----------'),]), stringsAsFactors=FALSE)
   
   for(i in 1:nrow(text_frame)) {
-    text_frame[i,1] <- tolower(gsub('[.,!?-]', '', text_frame[i,1]))
+    text_frame[i,1] <- tolower(gsub('[".,!?-]', '', text_frame[i,1]))
   }
   
   s <- strsplit(text_frame$line, split = " ")
@@ -93,3 +93,13 @@ part5 <- read_plain_text("the Order of the Phoenix transcript.txt")
 part6 <- read_plain_text("the Half Blood Prince transcript.txt")
 part7 <- read_plain_text("the Deathly Hallows 1 transcript.txt")
 part8 <- read_plain_text("the Deathly Hallows 2 transcript.txt")
+
+
+
+book1 <- read_plain_text("books/the Philosophers Stone.txt")
+book2 <- read_plain_text("books/the Chamber of Secrets.txt")
+book3 <- read_plain_text("books/the Prisoner of Azkaban.txt")
+book4 <- read_plain_text("books/the Goblet of Fire.txt")
+book5 <- read_plain_text("books/the Order of the Phoenix.txt")
+book6 <- read_plain_text("books/the Half Blood Prince.txt")
+book7 <- read_plain_text("books/the Deathly Hallows.txt")

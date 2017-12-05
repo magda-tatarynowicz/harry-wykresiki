@@ -59,6 +59,7 @@ count_negative_words <- function(set, negative, partNum) {
   rest <- setdiff(negative, res$word)
   res <- rbind(res, data.frame(word=rest, count = rep(0,length(rest))))
   res$part <- rep(partNum, nrow(res))
+  res$percentage <- 100*res$count/ nrow(set)
   res
 }
 
@@ -85,7 +86,24 @@ negative <- rbind(negative1, negative2, negative3, negative4,
                   negative5, negative6, negative7, negative8)
 
 
-p = nPlot(count ~ part, group =  "word", data = negative, type = 'stackedAreaChart')
+p = nPlot(percentage ~ part, group =  "word", data = negative, type = 'stackedAreaChart')
+p$chart(useInteractiveGuideline=TRUE)
+p
+
+
+negative_book1 <- count_negative_words(book1, negativeWords, 1)
+negative_book2 <- count_negative_words(book2, negativeWords, 2)
+negative_book3 <- count_negative_words(book3, negativeWords, 3)
+negative_book4 <- count_negative_words(book4, negativeWords, 4)
+negative_book5 <- count_negative_words(book5, negativeWords, 5)
+negative_book6 <- count_negative_words(book6, negativeWords, 6)
+negative_book7 <- count_negative_words(book7, negativeWords, 7)
+
+negative_book <- rbind(negative_book1, negative_book2, negative_book3, negative_book4,
+                  negative_book5, negative_book6, negative_book7)
+
+
+p = nPlot(percentage ~ part, group =  "word", data = negative_book, type = 'stackedAreaChart')
 p$chart(useInteractiveGuideline=TRUE)
 p
 
