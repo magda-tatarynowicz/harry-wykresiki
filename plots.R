@@ -1,6 +1,7 @@
 library(ggplot2)
 library(plotly)
 library(dplyr)
+library(rCharts)
 
 library(tidytext)
 data(stop_words)
@@ -50,6 +51,42 @@ sentiment <- rbind(sentiment1, sentiment2, sentiment3, sentiment4,
 p2 <- ggplot() + geom_line(aes(y = score, x = index, color = id), data = sentiment)
 p2
 ggplotly(p2)
+
+count_negative_words <- function(set, negative, partNum) {
+  res <- table(as.character(set$word[set$word %in% negative]))
+  res <- as.data.frame(res[order(res, decreasing = TRUE)])
+  colnames(res) <- c("word", "count")
+  rest <- setdiff(negative, res$word)
+  res <- rbind(res, data.frame(word=rest, count = rep(0,length(rest))))
+  res$part <- rep(partNum, nrow(res))
+  res
+}
+
+negativeWords <- c("kill", "blood", "bloody", "dead", 
+                   "death", "died", "killed", "crucio", 
+                   "avada", "imperio", "torture", 
+                   "pain", "mudblood", "hate", 
+                   "murder", "murderer", "killing", 
+                   "bleeding", "sectumsempra", "damn",
+                   "bitch", "git")
+
+negative1 <- count_negative_words(part1, negativeWords, 1)
+negative2 <- count_negative_words(part2, negativeWords, 2)
+negative3 <- count_negative_words(part3, negativeWords, 3)
+negative4 <- count_negative_words(part4, negativeWords, 4)
+negative5 <- count_negative_words(part5, negativeWords, 5)
+negative6 <- count_negative_words(part6, negativeWords, 6)
+negative7 <- count_negative_words(part7, negativeWords, 7)
+negative8 <- count_negative_words(part8, negativeWords, 8)
+
+negative <- rbind(negative1, negative2, negative3, negative4,
+                  negative5, negative6, negative7, negative8)
+
+
+p10 = nPlot(count ~ part, group =  "word", data = negative, type = 'stackedAreaChart')
+p10$chart(useInteractiveGuideline=TRUE)
+p10
+
 # 
 # sentiment1 <- part1 %>% inner_join(get_sentiments("nrc")) %>% group_by(sentiment) %>% summarize(count = n()) %>% arrange(desc(count))
 # sentiment4 <- part4 %>% inner_join(get_sentiments("nrc")) %>% group_by(sentiment) %>% summarize(count = n()) %>% arrange(desc(count))

@@ -11,7 +11,7 @@ How are you?
 - You buried the elf?
 - Yes.
 And brought me here.
-You are...
+You are 
 Pretty unusual, is it?
 How did you come by the sword?
 It's complicated.
@@ -45,7 +45,7 @@ Into one of the vaults.
 But with you, no.
 - Why should I help you?
 - I have gold.
-Lots of....
+Lots of 
 I've no interest in gold.
 Then what?
 That.
@@ -69,9 +69,9 @@ Anything, m'boy.
 Anything!
 Would you mind identifying this wand?
 We need to know if it's safe to use.
-Uhh... Walnut
+Uhh  Walnut
 Dragon Heartstring
-Unyie...
+Unyie 
 Unyielding.
 This belonged to Bellatrix Lestrange.
 Treat it carefully.
@@ -86,33 +86,33 @@ Well, perhaps not.
 If you won it from him.
 I sense its allegiance has changed.
 You talk about wands,
-as if they have feelings...
-.......can think!
+as if they have feelings 
+ can think!
 The wand chooses the wizard, Mr. Potter.
 That much has always been clear to
 those of us who've studied wandlore.
 And, what do you know about the Deathly Hallows?
 It is rumored there are three.
 The Elder Wand, the Cloak of Invisibility,
-to hide you from your enemies...
+to hide you from your enemies 
 and the Resurrection Stone, to bring
 back loved ones from the dead.
 Together, they make one the Master of Death.
 But, few truly believe that such objects exist.
 Do you?
 Do you believe they exist, sir?
-Well...
+Well 
 I see no reasons to put
 stock into an old wives' tale.
 You're lying!
 You know one exists.
 You told him about it.
-You told him about the Elder Wand...
+You told him about the Elder Wand 
 and where he could go looking for it.
 He tortured me.
-Besides...
-....I only conveyed rumors.
-There's...
+Besides 
+ I only conveyed rumors.
+There's 
 There's no telling whether he will find it.
 He has found it, sir.
 We'll let you rest.
@@ -120,7 +120,7 @@ He's after you, Mr. Potter.
 If it's true what you say,
 that he has the Elder Wand,
 I'm afraid,
-...you really don't stand a chance.
+ you really don't stand a chance.
 Well, I am supposed to kill him, before he finds me, then.
 You're sure that's hers?
 Positive.
@@ -130,7 +130,7 @@ Hideous.
 You can give that to Hermione to hold.
 Alright, Griphook?
 We're relying on you, Griphook.
-If you get us past the guards into the vault...
+If you get us past the guards into the vault 
 The sword's yours.
 Madam Lestrange.
 Good morning.
@@ -152,10 +152,10 @@ Identification?
 I hardly think that would be necessary.
 Madam Lestrange.
 I don't like to be kept waiting.
-I know...
+I know 
 They know she's an impostor.
 They'd be warned.
-Harry...
+Harry 
 What do we do, Harry?
 Madam Lestrange,
 would you mind presenting your wand?
@@ -181,7 +181,7 @@ is there any other way outta here?
 No.
 What the devil are all you doing down here?
 Thieves!
-You gave up the.....
+You gave up the 
 -Imperio
 -You!
 That doesn't sound good.
@@ -248,7 +248,7 @@ Well, maybe I can.
 I don't know!
 Never mind!
 What happened?
-Well, he's angry...
+Well, he's angry 
 and scared too.
 He knows, if we find and destroy
 all the Horcruxes, we'll be able to kill him.
@@ -270,16 +270,16 @@ our plans ever actually worked?
 We plan, we get there,
 all hell breaks loose.
 He's right!
-One problem...
+One problem 
 Snape's Headmaster now,
 we can't just move freely from the front door!
 Well, we'll go to Hogsmeade,
 to Honeydukes.
 Take the secret passage in the cellar.
-It's...
+It's 
 There's something wrong with him.
 It's like, you know,
-in the past...
+in the past 
 I've always been able
 to follow his thoughts.
 And now everything just feels disconnected.
@@ -287,7 +287,7 @@ Maybe it's the Horcruxes.
 Maybe he's getting weaker.
 Maybe he's dying!
 No!
-No, it's.. it's more like he's wounded.
+No, it's  it's more like he's wounded.
 If anything, he feels more dangerous.
 - Right here. Come on!
 - Search everywhere.
@@ -296,7 +296,7 @@ Faster!
 In here, Potter.
 Come on, move!
 Did you look at him.
-- For a second I thought that was...
+- For a second I thought that was 
 - I know. Dumbledore!
 Harry?
 I can see you in this.
@@ -313,22 +313,22 @@ Who gave that to you?
 The mirror?
 Mundungus Fletcher, about a year ago.
 Dung had no right selling that to you.
-It belongs to...
-Sirius...
+It belongs to 
+Sirius 
 Albus told me.
 He also told me you'd likely be hacked off,
-...if you ever found that I had it.
+ if you ever found that I had it.
 But, ask yourself;
 Where would you be if I didn't?
 Do you have any others much?
 From the Order?
 The Order has finished.
 You-Know-Who has won,
-...anyone who says otherwise
+ anyone who says otherwise
 is killing themselves.
 We need to get into Hogwarts, tonight.
 Dumbledore gave us a job to do.
-Did he now...
+Did he now 
 Nice job?
 Easy?
 We've been hunting Horcruxes.
@@ -342,10 +342,10 @@ Dumbledore trusted me to see this through.
 What makes you think you can trust him?
 What makes you think you can
 believe anything my brother told you?
-And in all the time you knew him...
+And in all the time you knew him 
 Did he ever mention my name?
 Did he ever mentioned hers?
-- Why should he...
+- Why should he 
 - Keep secrets.
 You tell me?
 - I trusted him.
@@ -383,7 +383,7 @@ That doesn't seem like someone who's given up!
 She's coming back.
 What's that with her?
 Neville!
-- How you look...
+- How you look 
 - Like hell, I reckon.
 But this is nothing.
 Seamus is worse.
@@ -419,7 +419,7 @@ We'll be surprised if it's just digested.
 Get the word out to Remus and the others, that Harry is back.
 Okay, okay!
 Let's not kill him before You-Know-Who does.
-...Do you read? we've a new weather report.
+ Do you read? we've a new weather report.
 Lightning has struck. I repeat: Lightning has struck.
 What's the fun, Harry?
 Okay.
@@ -456,33 +456,33 @@ I'm her brother!
 - She got lots of them, but she has got only one Harry.
 - Shut up, Seamus!
 What is it, Ginny?
-Snape knows... he knows
+Snape knows  he knows
 that Harry was spotted in Hogsmeade.
 Many of you are surely wondering,
 why I have summoned you at this hour.
 It's come to my attention,
-that earlier this evening...
+that earlier this evening 
 Harry Potter was sighted in Hogsmeade.
-Now...
-should anyone...
+Now 
+should anyone 
 student or staff attempt to aid Mr. Potter?
 They will be punished in a manner consistent with
-the severity of their transcription, further more...
+the severity of their transcription, further more 
 Any person found have
-knowledge of these events...
-who fails to come forward...
+knowledge of these events 
+who fails to come forward 
 will be treated as equally guilty.
-Another...
+Another 
 If anyone in here has any knowledge of
 Mr. Potter's movements this evening.
 I invite them to step forward.
 Now!
 It seems, despite your exhaustive defensive strategies,
-...you still have a security problem, Headmaster.
+ you still have a security problem, Headmaster.
 I'm afraid it's quite extensive.
 How dare you stand where he stood?
 Tell them how it happened that night?
-Tell them how you looked him in the eye...
+Tell them how you looked him in the eye 
 A man who trusted you, and killed him.
 Tell them!
 COWARD!!!
@@ -505,7 +505,7 @@ Students in the corridor!
 They're supposed to be out of bed,
 you blithering idiot!
 Sorry ma'am.
-As it happens, Mr. Filch...
+As it happens, Mr. Filch 
 Your arrival is most opportune.
 If you would, I wouldd like you please, to lead Miss Parkinson
 and the rest of Slytherin house, from the hall.
@@ -517,7 +517,7 @@ Time, Professor.
 As much as you can get me.
 Do what you have to do.
 I'll secure the castle.
-Potter...
+Potter 
 It's good to see you.
 It's good to see you too, Professor.
 Hold the fort, Neville.
@@ -526,7 +526,7 @@ Hermione and I were thinking,
 it doesn't matter if we find the Horcrux.
 What do you mean?
 Unless we can destroy it.
-So, we were thinking...
+So, we were thinking 
 Well, Ron was thinking, it was Ron's idea.
 It was completely brilliant
 You destroyed Tom Riddle's diary
@@ -541,7 +541,7 @@ Ravenclaw common room,
 Gotta start somewhere.
 Harry!
 Harry!
-Let me get this straight, Professor...
+Let me get this straight, Professor 
 You're actually giving us
 permission to do this?
 That is correct, Longbottom.
@@ -566,15 +566,15 @@ He's come to try to kill you, either way!
 Piertotum Locomotor.
 Hogwarts is threatened.
 Man the boundaries! Protect us.
-Do your duty...
-....to our school.
+Do your duty 
+ to our school.
 I always wanted to use that spell!
 Protego Maxima
 Fianto Duri
 Repello Inimigotum
 Protego Maxima
 Fianto Duri
-Repello....
+Repello 
 Protego Maxima
 Fianto Duri
 Repello Inimigotum
@@ -621,7 +621,7 @@ Wait, please!
 I want to destroy it!
 They never learn.
 Such a pity.
-My Lord...
+My Lord 
 Shouldn't we wait?
 Begin!
 I thought you want to do it.
@@ -648,18 +648,18 @@ Strange!
 You remind me of him a bit.
 It's here, in the castle.
 In the place where everything is hidden.
-If you have to ask...
-....you will never know.
-If you know...
-...you need only ask.
+If you have to ask 
+ you will never know.
+If you know 
+ you need only ask.
 Thank you!
 Tell Professor McGonagall.
 Remus and I will handle this side of the castle.
 Yes, sir!
 Hey Dean, with second thoughts, tell Professor McGonagall we
 might need one or two more wands this side.
-It is the quality of one's convictions that determines one's success..
-...not the number of followers.
+It is the quality of one's convictions that determines one's success 
+ not the number of followers.
 Who said that?
 Me.
 You okay, Freddie?
@@ -689,7 +689,7 @@ I know.
 Bloody hell!
 We'll never find him on this.
 Here he is!
-- He's just...
+- He's just 
 - Brilliant!
 He just vanished.
 I'm sure I saw it.
@@ -700,15 +700,15 @@ That's right, I did.
 Let's go.
 Brilliant!
 Come on!
-Well, well...
+Well, well 
 What brings you here, Potter?
 I could ask you the same.
 You have something that's mine.
 I'd like it back.
 What's wrong with the wand you have?
 It's my mother's.
-It's powerful, but it's...
-..not the same.
+It's powerful, but it's 
+ not the same.
 Doesn't quite understand me.
 You know what I mean?
 Why didn't you tell her?
@@ -743,13 +743,13 @@ Look inside him, Harry.
 Find out where he is,
 if you find him, we can find the snake.
 And we can end this!
-My Lord...
-Might it be less...
+My Lord 
+Might it be less 
 I should not be more prudent to call off this attack.
 Simply seek the boy.
 Yourself.
-I do not need to seek the boy...
-....before the night is out, he will come to me!
+I do not need to seek the boy 
+ before the night is out, he will come to me!
 Do you understand?
 Look at me!
 How can you live with yourself, Lucius?
@@ -768,7 +768,7 @@ But the wand resists me .
 There is no wand more powerful.
 Ollivander himself has said it.
 Tonight, when the boy comes.
-It will not fail you, I am sure ...
+It will not fail you, I am sure  
 It answers to you,
 and you only.
 Does it?
@@ -776,9 +776,9 @@ My Lord?
 The wand, does it truly
 answer to me?
 You're a clever man, Severus.
-Surely you must know...
+Surely you must know 
 - Where does its true loyalty lie?
-- With you...
+- With you 
 Of course, My Lord.
 The Elder Wand cannot serve me properly,
 because I am not its true master.
@@ -789,28 +789,28 @@ While you live, the Elder
 Wand cannot truly be mine.
 You've been a good and faithful servant, Severus.
 But only I can live forever.
-My Lord...
+My Lord 
 Nagini, kill!
-Take it...
+Take it 
 Take it up, please!
 Give me something!
 Quickly, a flask. Anything!
 Take them to the Pensieve.
-Look at me...
+Look at me 
 You really have your mother's eyes.
 You've fought valiantly,
-but in vain...
+but in vain 
 I do not wish this. Every drop of magical blood
 spilled is a terrible waste.
-I therefore command my forces to retreat...
+I therefore command my forces to retreat 
 In their absence,
 dispose your dead with dignity,
 Harry Potter, I now speak directly to you.
 On this night, you have allowed your friends to die
 for you, rather than face me yourself.
 There is no greater dishonor.
-Join me in the Forbidden Forrest...
-...and confront your fate.
+Join me in the Forbidden Forrest 
+ and confront your fate.
 If you do not do this, I shall kill every last man,
 woman and child who tries to conceal you from me.
 Where's everybody?
@@ -837,11 +837,11 @@ The prophecy did not refer to a woman.
 It spoke about a boy born at the end of the July.
 Yes, but it's her son!
 He intends to hunt them down and kill them.
-Hide him... hide them all.
+Hide him  hide them all.
 I beg you!
 What would you give me in exchange, Severus?
 - Anything.
-- Harry...
+- Harry 
 Harry, you were so loved.
 So loved!
 Harry, mama loves you.
@@ -850,7 +850,7 @@ Harry, be safe.
 Be strong.
 Avada Kedavra!
 You said you would keep her safe.
-Lily and James...
+Lily and James 
 put their faith in the wrong person, Severus.
 Rather like you.
 The boy survives.
@@ -860,14 +860,14 @@ The Dark Lord will return.
 And when he does, the boy
 will be in terrible danger!
 He has her eyes.
-If you truly loved her...
+If you truly loved her 
 No one, can know.
 I shall never reveal the best of you,
 Severus.
 Your word?
 Can you risk your life every day
 to protect the boy?
-... He possesses no measurable talent, his arrogance rivals that of his father's and he seems to relish in his fame...
+  He possesses no measurable talent, his arrogance rivals that of his father's and he seems to relish in his fame 
 Don't tell a word against my father!
 James Potter, lazy, arrogant.
 - My father was a great man!
@@ -890,18 +890,18 @@ must be told something.
 But you must wait, until Voldemort is at his most vulnerable.
 Must be told what?
 On the night Lord Voldemort went
-to Godric's Hollow to kill Harry...
-Then, Lily Potter cast herself between them...
-...the curse rebounded.
-When that happens, a part of Voldemort's soul...
-latched itself onto the only living thing it could find...
+to Godric's Hollow to kill Harry 
+Then, Lily Potter cast herself between them 
+ the curse rebounded.
+When that happens, a part of Voldemort's soul 
+latched itself onto the only living thing it could find 
 Harry himself.
-There's a reason Harry can speak with snakes...
-There's a reason he can look into Lord Voldemort's mind...
+There's a reason Harry can speak with snakes 
+There's a reason he can look into Lord Voldemort's mind 
 A part of Voldemort lives inside him.
-So, when the time comes...
-...the boy must die?
-Yes... yes.
+So, when the time comes 
+ the boy must die?
+Yes  yes.
 He must die.
 You've kept him alive, so he can
 die at the proper moment?
@@ -912,8 +912,8 @@ Expecto Patronum
 Lily!
 After all this time!
 Always.
-So, when the time comes...
-...the boy must die?
+So, when the time comes 
+ the boy must die?
 Yes.
 He must die.
 And Voldemort himself must do it.
@@ -922,7 +922,7 @@ That is essential.
 - I thought you went to the forest.
 I'm going there now.
 Are you mad?
-No...
+No 
 You can't give yourself up to him.
 What is it, Harry?
 What is it you know?
@@ -939,7 +939,7 @@ You've been so brave, sweetheart.
 Why are you here?
 All of you.
 We never left.
-Does...
+Does 
 Does it hurt?
 Dying?
 Quicker than falling asleep.
@@ -962,12 +962,12 @@ I thought he'd come.
 Harry, no!
 - What're yeh doin' 'ere?
 - Quiet!
-Harry Potter...
-...The Boy Who Lived...
-...come to die.
+Harry Potter 
+ The Boy Who Lived 
+ come to die.
 Avada Kedavra
-You can't help...
-Harry, you're a wonderful boy...
+You can't help 
+Harry, you're a wonderful boy 
 You brave, brave man!
 Let us walk.
 Professor, what is that?
@@ -977,12 +977,12 @@ And exactly where are we?
 I was gonna ask you that.
 Where would you say where we are?
 Well, it looks like King's Cross station.
-Only cleaner...
-....and without all the trains.
+Only cleaner 
+ and without all the trains.
 King's Cross, is that right?
 This is as they say, 'your' party.
-I expect you now realize that you and Voldemort...
-...have been connected by something other than fate.
+I expect you now realize that you and Voldemort 
+ have been connected by something other than fate.
 Since that night at Godric's Hollow all those years ago.
 So it's true then, sir.
 A part of him lives within me, doesn't it?
@@ -1009,24 +1009,24 @@ Help will always be given at Hogwarts, Harry.
 To those who ask for it.
 I've always pride of myself
 on my ability to turn a phrase.
-Words are, in my not so humble opinion...
-..almost inexhaustible source of magic.
+Words are, in my not so humble opinion 
+ almost inexhaustible source of magic.
 Capable of inflicting
 injury and remedies.
-But I would in this case...
+But I would in this case 
 amend my original statement to this:
 Help, will always be given at Hogwarts,
 To those who deserve it.
-Do not pity the dead, Harry...
+Do not pity the dead, Harry 
 Pity the living.
-And above all...
-....all those who live without love.
-Professor, my mother's Patronus...
+And above all 
+ all those who live without love.
+Professor, my mother's Patronus 
 was a doe, wasn't it?
 As the same as Professor Snape's.
 It's curious, don't you think?
-Actually, if I think about it...
-...it doesn't seem curious at all!
+Actually, if I think about it 
+ it doesn't seem curious at all!
 I'll be going now, Harry.
 Professor?
 Is this all real?
@@ -1037,10 +1037,10 @@ Why should that mean, that it's not real?
 Professor?
 What should I do?
 Professor!
-My Lord, My Lord...
+My Lord, My Lord 
 Are you hurt?
 I don't need your help.
-The boy...
+The boy 
 Is he dead?
 Is he alive?
 Draco, is he alive?
@@ -1048,19 +1048,19 @@ Dead.
 Who is that?
 Hagrid's carrying?
 Neville, who is it?
-Harry Potter...
-... is dead!
+Harry Potter 
+  is dead!
 - No!
 No!
 Silence!
 Stupid girl!
-Harry Potter...
+Harry Potter 
 is dead!
-From this day forth...
-...you'll put your faith in me.
+From this day forth 
+ you'll put your faith in me.
 Harry Potter is dead!
 And now it's the time to declare yourself.
-Come forward and join us...
+Come forward and join us 
 or die!
 Draco!
 Draco.
@@ -1080,12 +1080,12 @@ fascinated to hear what you have to say.
 - Stand down, Neville!
 People die everyday!
 Friends, family.
-Yeah...
+Yeah 
 We lost Harry tonight.
 He's still with us.
 In here.
-So as Fred, Remus...
-Tonks...
+So as Fred, Remus 
+Tonks 
 All of them.
 They didn't die in vain.
 But you will.
@@ -1099,15 +1099,15 @@ All remain into the castle.
 We have to kill the snake.
 Hey, Neville!
 Not my daughter, you bitch!
-Hey, you were right...
-...when you told Professor Snape
+Hey, you were right 
+ when you told Professor Snape
 that wand was failing you.
-It was always fail...
+It was always fail 
 I killed Snape!
 Yeah, but what if the wand never belonged to Snape?
 What if its allegiance has always been
 with someone else?
-Oh, come on, Tom...
+Oh, come on, Tom 
 Let's finish it the way we started.
 Together!
 Die!
@@ -1117,14 +1117,14 @@ The Elder Wand?
 It answers to somebody else.
 When he killed Snape, he thought
 the wand would become his.
-But the thing is...
+But the thing is 
 The wand never belongs to Snape.
 It was Draco who disarmed Dumbledore
 that night in the Astronomy tower.
 From that moment on, the wand answered him.
 Until, the other night when I disarmed Draco.
 At Malfoy Manor.
-So, that means...
+So, that means 
 It's mine!
 - What should we do with it?
 - We?
@@ -1143,10 +1143,10 @@ Albus Severus Potter.
 You're named after two Headmasters of Hogwarts.
 One of them was a Slytherin.
 And he was the bravest man I've ever known.
-- What you say if I am...
-- Then Slytherin house...
+- What you say if I am 
+- Then Slytherin house 
 will've gained a wonderful young wizard.
-Listen...
+Listen 
 If it really means that much to you,
 you can choose Gryffindor.
 The Sorting Hat takes
