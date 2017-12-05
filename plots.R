@@ -68,7 +68,9 @@ negativeWords <- c("kill", "blood", "bloody", "dead",
                    "pain", "mudblood", "hate", 
                    "murder", "murderer", "killing", 
                    "bleeding", "sectumsempra", "damn",
-                   "bitch", "git")
+                   "bitch", "git", "die", "hell", 
+                   "harm", "hell", "panic", "afraid",
+                   "evil", "worry", "attack")
 
 negative1 <- count_negative_words(part1, negativeWords, 1)
 negative2 <- count_negative_words(part2, negativeWords, 2)
@@ -83,9 +85,9 @@ negative <- rbind(negative1, negative2, negative3, negative4,
                   negative5, negative6, negative7, negative8)
 
 
-p10 = nPlot(count ~ part, group =  "word", data = negative, type = 'stackedAreaChart')
-p10$chart(useInteractiveGuideline=TRUE)
-p10
+p = nPlot(count ~ part, group =  "word", data = negative, type = 'stackedAreaChart')
+p$chart(useInteractiveGuideline=TRUE)
+p
 
 # 
 # sentiment1 <- part1 %>% inner_join(get_sentiments("nrc")) %>% group_by(sentiment) %>% summarize(count = n()) %>% arrange(desc(count))
