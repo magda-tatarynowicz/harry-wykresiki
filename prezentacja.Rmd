@@ -196,7 +196,7 @@ count_negative_words <- function(set, negative, partNum) {
   rest <- setdiff(negative, res$word)
   res <- rbind(res, data.frame(word=rest, count = rep(0,length(rest))))
   res$part <- rep(partNum, nrow(res))
-  res$percentage <- 100*res$count/ nrow(set)
+  res$ratio <- 1000*res$count/ nrow(set)
   res
 }
 
@@ -223,8 +223,13 @@ negative <- rbind(negative1, negative2, negative3, negative4,
                   negative5, negative6, negative7, negative8)
 
 
-p = nPlot(percentage ~ part, group =  "word", data = negative, type = 'stackedAreaChart')
+p = nPlot(ratio ~ part, group =  "word", data = negative, type = 'stackedAreaChart')
 p$chart(useInteractiveGuideline=TRUE)
+p$templates$script <- "http://timelyportfolio.github.io/rCharts_nvd3_templates/chartWithTitle.html"
+      
+p$xAxis(axisLabel = 'Part')
+p$yAxis(axisLabel = 'Ratio of occurrence (per 1000 words)', width = 50)
+p$set(title = "Movies")
 p$print(include_assets=T)
 
 
@@ -240,8 +245,13 @@ negative_book <- rbind(negative_book1, negative_book2, negative_book3, negative_
                   negative_book5, negative_book6, negative_book7)
 
 
-p = nPlot(percentage ~ part, group =  "word", data = negative_book, type = 'stackedAreaChart')
+p = nPlot(ratio ~ part, group =  "word", data = negative_book, type = 'stackedAreaChart')
 p$chart(useInteractiveGuideline=TRUE)
+p$templates$script <- "http://timelyportfolio.github.io/rCharts_nvd3_templates/chartWithTitle.html"
+
+p$xAxis(axisLabel = 'Part')
+p$yAxis(axisLabel = 'Ratio of occurrence (per 1000 words)', width = 50)
+p$set(title = "Books")
 p$print(include_assets=T)
 ```
 
