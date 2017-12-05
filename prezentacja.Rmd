@@ -14,6 +14,7 @@ library(dplyr)
 library(rCharts)
 library(scales)
 library(gridExtra)
+library(ggthemes)
 
 library(tidytext)
 library(knitr)
@@ -154,7 +155,7 @@ sentiment <- rbind(sentiment1, sentiment2, sentiment3, sentiment4,
                    sentiment5, sentiment6, sentiment7, sentiment8)
 
 p2_movie <- ggplot() + geom_line(aes(y = score, x = index_scaled, color = Part, label = word), data = sentiment) +
-  scale_colour_brewer(palette = "Paired") + ggtitle("Movies") +
+  scale_colour_brewer(palette = "Paired") +  theme_minimal() +  ggtitle("Movies") +
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
@@ -175,7 +176,8 @@ sentiment_book <- rbind(sentiment_book1, sentiment_book2, sentiment_book3, senti
                         sentiment_book5, sentiment_book6, sentiment_book7)
 
 p2_book <- ggplot() + geom_line(aes(y = score, x = index_scaled, color = Part, label = word), data = sentiment_book) + 
-  scale_colour_brewer(palette = "Paired") + ggtitle("Books") + 
+    scale_colour_brewer(palette = "Paired")  +
+  theme_minimal() + ggtitle("Books") + 
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
@@ -223,7 +225,7 @@ negative <- rbind(negative1, negative2, negative3, negative4,
 
 p = nPlot(percentage ~ part, group =  "word", data = negative, type = 'stackedAreaChart')
 p$chart(useInteractiveGuideline=TRUE)
-p$show('iframesrc',cdn=TRUE)
+p$print(include_assets=T)
 
 
 negative_book1 <- count_negative_words(book1, negativeWords, 1)
@@ -240,6 +242,6 @@ negative_book <- rbind(negative_book1, negative_book2, negative_book3, negative_
 
 p = nPlot(percentage ~ part, group =  "word", data = negative_book, type = 'stackedAreaChart')
 p$chart(useInteractiveGuideline=TRUE)
-p$show('iframesrc',cdn=TRUE)
+p$print(include_assets=T)
 ```
 
