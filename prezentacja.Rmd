@@ -13,6 +13,7 @@ library(plotly)
 library(dplyr)
 library(rCharts)
 library(scales)
+library(gridExtra)
 
 library(tidytext)
 library(knitr)
@@ -127,6 +128,9 @@ book7 <- read_plain_text("books/the Deathly Hallows.txt")
 
 ```
 
+# Seria Harry Potter
+
+## Porównanie emocji w filmach i książkach
 
 ```{r}
 process_sentiment <- function(set, id, scale_max){
@@ -150,7 +154,7 @@ sentiment <- rbind(sentiment1, sentiment2, sentiment3, sentiment4,
                    sentiment5, sentiment6, sentiment7, sentiment8)
 
 p2_movie <- ggplot() + geom_line(aes(y = score, x = index_scaled, color = Part, label = word), data = sentiment) +
-  scale_colour_brewer(palette = "Paired") + 
+  scale_colour_brewer(palette = "Paired") + ggtitle("Movies") +
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
@@ -171,7 +175,7 @@ sentiment_book <- rbind(sentiment_book1, sentiment_book2, sentiment_book3, senti
                         sentiment_book5, sentiment_book6, sentiment_book7)
 
 p2_book <- ggplot() + geom_line(aes(y = score, x = index_scaled, color = Part, label = word), data = sentiment_book) + 
-  scale_colour_brewer(palette = "Paired") + 
+  scale_colour_brewer(palette = "Paired") + ggtitle("Books") + 
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
@@ -180,6 +184,7 @@ p2_book <- ggplot() + geom_line(aes(y = score, x = index_scaled, color = Part, l
 ggplotly(p2_book, tooltip = c("Part", "word"))
 ```
 
+## Negatywnie nacechowane słowa
 
 ```{r,results='asis',comment=NA}
 count_negative_words <- function(set, negative, partNum) {
