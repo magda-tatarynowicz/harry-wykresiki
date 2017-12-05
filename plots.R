@@ -37,9 +37,15 @@ process_sentiment <- function(set, id){
 
 sentiment1 <- process_sentiment(part1, "1")
 sentiment2 <- process_sentiment(part2, "2")
+sentiment3 <- process_sentiment(part3, "3")
 sentiment4 <- process_sentiment(part4, "4")
+sentiment5 <- process_sentiment(part5, "5")
+sentiment6 <- process_sentiment(part6, "6")
+sentiment7 <- process_sentiment(part7, "7")
+sentiment8 <- process_sentiment(part8, "8")
 
-sentiment <- rbind(sentiment1, sentiment2, sentiment4)
+sentiment <- rbind(sentiment1, sentiment2, sentiment3, sentiment4,
+                   sentiment5, sentiment6, sentiment7, sentiment8)
 
 p2 <- ggplot() + geom_line(aes(y = score, x = index, color = id), data = sentiment)
 p2

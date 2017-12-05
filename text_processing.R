@@ -70,8 +70,26 @@ read_text_frame_no_colons <- function(title) {
   text
 }
 
+read_plain_text <- function(title){
+  text <- read_file(title)
+  text_split <- unlist(strsplit(text, "\n|\t|\r"))
+  text_frame <- data.frame(line = text_split)
+  text_frame <- data.frame(line = as.character(text_frame[!apply(text_frame, 1, function(x) grepl("^\\s*$", x) | x == '----------'),]), stringsAsFactors=FALSE)
+  
+  for(i in 1:nrow(text_frame)) {
+    text_frame[i,1] <- tolower(gsub('[.,!?-]', '', text_frame[i,1]))
+  }
+  
+  s <- strsplit(text_frame$line, split = " ")
+  text <- data.frame(word = unlist(s))
+  text %>% filter(word != "")
+}
 
 part1 <- read_text_frame("the Philosophers Stone.txt")
 part2 <- read_text_frame("the Chamber of Secrets.txt")
-
+part3 <- read_plain_text("the Prisoner of Azkaban transcript.txt")
 part4 <- read_text_frame_no_colons("the Goblet of Fire.txt")
+part5 <- read_plain_text("the Order of the Phoenix transcript.txt")
+part6 <- read_plain_text("the Half Blood Prince transcript.txt")
+part7 <- read_plain_text("the Deathly Hallows 1 transcript.txt")
+part8 <- read_plain_text("the Deathly Hallows 2 transcript.txt")
