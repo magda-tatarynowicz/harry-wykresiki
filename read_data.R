@@ -55,3 +55,4 @@ get_spells <- function() {
 }
 
 spells <- get_spells()
+#write.csv(spells, "HP_Spells/spells_frame.csv", row.names = FALSE)
