@@ -10,7 +10,7 @@ Aparecium	Spell	Reveals invisible ink
 Apparate	Spell	Teleportation Spell
 Arania Exumai	Spell	Blasts away Spiders
 Aqua Eructo	Spell	Shoots water from wand
-Arresto Momentum	Spell	Slows down objects
+Aresto Momentum	Spell	Slows down objects
 Ascendio	Spell	Moves an object upward
 Avada Kedavra	Curse	Murders opponent – Unforgivable
 Avifors	Charm	Turns small objects into birds
@@ -47,7 +47,7 @@ Ears to Kumquats	Spell	Give a person kumquat ears
 Ear Shriveling 	Curse	Cause a person’s ears to shrivel
 Engorgio	Charm	Enlarges and item
 Ennervate	 Spell	Counters Stupefy
-Entrail-Expelling 	Curse	Expel entrails from a body
+Entrail Expelling 	Curse	Expel entrails from a body
 Episkey	Spell	Heals minor injuries
 Epoximise	Spell 	Binds objects together 
 Erecto	Spell	Builds things
@@ -63,7 +63,7 @@ Fidelius	Charm	Hides a secret within someone
 Fiendfyre	Curse	Difficult to control, large fire curse – Dark Magic
 Finestra 	Spell	Turns windows to dust
 Finite	Spell	Finishes spells in the casters area
-Finite Incantatum	Spell	Stops any current spells
+Finite Incantatem	Spell	Stops any current spells
 Flagrante 	Curse	Multiplies and burns objects upon touch
 Flagrate	Spell	Allows user to write on objects
 Flame Freezing	Charm	Makes flames cool
@@ -76,7 +76,7 @@ Glisseo	Spell	Turns stairs into ramps
 Gripping 	Charm	Makes it easier to hold things
 Harmonia Nectere Passus	Spell	Mends broken things
 Homenum Revelio	Spell	Reveals humans nearby
-Homonculous 	Charm	Lets a person track others movements on a map
+Homonculous	Charm	Lets a person track others movements on a map
 Homorphus	Charm	Lockhart’s Werewolf “cure”
 Horcrux	Curse	Allows a wizard to put his soul into an object
 Illegibilus	Spell	Makes text unreadable
@@ -99,7 +99,7 @@ Meteolojinx Recanto	Spell	Causes weather effect spells to stop
 Mimblewimble	Curse	Tongue Ties it’s victim
 Mobiliarbus	Charm	Moves objects with wand
 Mobilicorpus	Spell	Moves unconscious bodies
-Morsmorde	Spell	Conjures the Dark Mark
+Morsmordre	Spell	Conjures the Dark Mark
 Muffliato	Spell	Prevents nearby people from listening to conversations
 Multicorfors 	Spell	Changes colors of objects (Lego Video Games)
 Nox	Spell	Counter to Lumos – turns off lights
@@ -129,7 +129,7 @@ Relashio	Spell	Releases user from binding
 Rennervate	Spell	Cures unconsciousness
 Reparo	Spell	Repairs Things
 Repello Muggletum	Charm	Keeps Muggles away
-Repello Inimicum	Charm	Keeps evil beings away. Wide Area Protection
+Repello Inimigotum	Charm	Keeps evil beings away. Wide Area Protection
 Revelio	Spell	Reveals Hidden objects
 Rictusempra	Charm	Tickles opponent
 Riddikulus	Spell	Use this spell and laugh to defeat a boggart
