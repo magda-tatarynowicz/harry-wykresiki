@@ -11,6 +11,12 @@ shinyUI(fluidPage(
     column(12, align="center",
            selectInput("spells", "Zaklęcia", spells, selected=c("Expelliarmus", "Avada Kedavra"), multiple = TRUE, width = '100%'))
   ),
+  
+  fluidRow(
+    column(4, align="center", checkboxInput("checkboxForbidden", "Niewybaczalne", value = FALSE)),
+    column(4, align="center", checkboxInput("checkboxFight", "Używane w pojedynkach", value = FALSE)),
+    column(4, align="center", checkboxInput("checkboxPopular", "Najczęstsze", value = FALSE))
+  ),
     
   fluidRow(
     column(6,

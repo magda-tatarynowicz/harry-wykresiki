@@ -13,15 +13,26 @@ shinyServer(function(input, output) {
   spells <- read.csv("spells_frame.csv")
   
   selectedSpells <- reactive({
-    spells[tolower(spells$Incantation) %in% tolower(input$spells),]
+    selected <- spells[tolower(spells$Incantation) %in% tolower(input$spells),]
+    if (input$checkboxForbidden) {
+       selected <- spells[spells$Incantation %in% c("Avada Kedavra", "Crucio", "Imperio"),]
+    }
+    if (input$checkboxFight) {
+      selected <- spells[spells$Incantation %in% c("Expelliarmus", "Stupefy", "Protego"),]
+    }
+    if (input$checkboxPopular) {
+      selected <- spells[spells$Incantation %in% c("Expecto Patronum", "Accio", "Wingardium Leviosa", "Alohomora"),]
+    }
+    selected
   })
    
   output$spellMoviePlot <- renderChart({
     movies <- selectedSpells();
     movies <- meltSpells(movies[,c(1,4:11)])
-    
-    p = nPlot(count ~ part, group =  "spell", data = movies, type = 'stackedAreaChart', dom="spellMoviePlot")
-    p$chart(useInteractiveGuideline=TRUE)
+
+    p = nPlot(count ~ part, group =  "spell", data = movies, type = "multiBarChart", dom="spellMoviePlot")
+    #p$chart(useInteractiveGuideline=TRUE)
+    p$chart(stacked = TRUE)
     p$set(width = 900, height = 800)
     return(p)
   })
@@ -30,8 +41,9 @@ shinyServer(function(input, output) {
     books <- selectedSpells();
     books <- meltSpells(books[,c(1,12:18)])
     
-    p = nPlot(count ~ part, group =  "spell", data = books, type = 'stackedAreaChart', dom="spellBookPlot")
-    p$chart(useInteractiveGuideline=TRUE)
+    p = nPlot(count ~ part, group =  "spell", data = books, type = 'multiBarChart', dom="spellBookPlot")
+    #p$chart(useInteractiveGuideline=TRUE)
+    p$chart(stacked = TRUE)
     p$set(width = 900, height = 800)
     return(p)
   })
