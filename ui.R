@@ -17,14 +17,25 @@ shinyUI(fluidPage(
     column(4, align="center", checkboxInput("checkboxFight", "Używane w pojedynkach", value = FALSE)),
     column(4, align="center", checkboxInput("checkboxPopular", "Najczęstsze", value = FALSE))
   ),
-    
-  fluidRow(
-    column(6,
-            h3("Filmy",align="center"),
-            showOutput("spellMoviePlot", "nvd3")),
-    column(6,
-            h3("Książki",align="center"),
-            showOutput("spellBookPlot", "nvd3"))
-    )
+  
+  tabsetPanel(
+    tabPanel("Area chart",
+             fluidRow(
+                 column(6,
+                         h3("Filmy",align="center"),
+                         showOutput("spellMoviePlotArea", "nvd3")),
+                 column(6,
+                         h3("Książki",align="center"),
+                         showOutput("spellBookPlotArea", "nvd3"))
+                 )),
+   tabPanel("Bar chart",
+          fluidRow(
+                 column(6,
+                        h3("Filmy",align="center"),
+                        showOutput("spellMoviePlot", "nvd3")),
+                 column(6,
+                        h3("Książki",align="center"),
+                        showOutput("spellBookPlot", "nvd3"))
+                 )))
   )
 )

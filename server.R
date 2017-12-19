@@ -28,7 +28,8 @@ shinyServer(function(input, output) {
    
   output$spellMoviePlot <- renderChart({
     movies <- selectedSpells();
-    movies <- meltSpells(movies[,c(1,4:11)])
+    movies[,10] <- movies[,10] + movies[,11]
+    movies <- meltSpells(movies[,c(1,4:10)])
 
     p = nPlot(count ~ part, group =  "spell", data = movies, type = "multiBarChart", dom="spellMoviePlot")
     #p$chart(useInteractiveGuideline=TRUE)
@@ -44,6 +45,29 @@ shinyServer(function(input, output) {
     p = nPlot(count ~ part, group =  "spell", data = books, type = 'multiBarChart', dom="spellBookPlot")
     #p$chart(useInteractiveGuideline=TRUE)
     p$chart(stacked = TRUE)
+    p$set(width = 900, height = 800)
+    return(p)
+  })
+  
+  output$spellMoviePlotArea <- renderChart({
+    movies <- selectedSpells();
+    movies[,10] <- movies[,10] + movies[,11]
+    movies <- meltSpells(movies[,c(1,4:10)])
+    
+    p = nPlot(count ~ part, group =  "spell", data = movies, type = "stackedAreaChart", dom="spellMoviePlotArea")
+    p$chart(useInteractiveGuideline=TRUE)
+    #p$chart(stacked = TRUE)
+    p$set(width = 900, height = 800)
+    return(p)
+  })
+  
+  output$spellBookPlotArea <- renderChart({
+    books <- selectedSpells();
+    books <- meltSpells(books[,c(1,12:18)])
+    
+    p = nPlot(count ~ part, group =  "spell", data = books, type = 'stackedAreaChart', dom="spellBookPlotArea")
+    p$chart(useInteractiveGuideline=TRUE)
+    #p$chart(stacked = TRUE)
     p$set(width = 900, height = 800)
     return(p)
   })
