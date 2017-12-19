@@ -4,7 +4,7 @@ Accio	Charm	Summons an object
 Aguamenti	Charm	Shoots water from wand.
 Alarte Ascendare	Spell	Shoots things high in the air
 Alohomora	Charm	Opens locked objects
-Anapneo	Spell	Clears the target’s airway.
+Anapneo	Spell	Clears the target's airway.
 Anteoculatia	Hex	Turns head hair into antlers
 Aparecium	Spell	Reveals invisible ink
 Apparate	Spell	Teleportation Spell
@@ -12,7 +12,7 @@ Arania Exumai	Spell	Blasts away Spiders
 Aqua Eructo	Spell	Shoots water from wand
 Aresto Momentum	Spell	Slows down objects
 Ascendio	Spell	Moves an object upward
-Avada Kedavra	Curse	Murders opponent – Unforgivable
+Avada Kedavra	Curse	Murders opponent - Unforgivable
 Avifors	Charm	Turns small objects into birds
 Avis	Spell	Launches birds from your wand
 Babbling Curse 	Curse	Makes a person babble
@@ -24,16 +24,16 @@ Caterwauling	Charm	Detects enemies and emits a scream
 Cave Inimicum	Charm	Detects enemies and emits an alarm
 Cistem Aperio	Spell	Opens things
 Colloportus	Spell	Locks Doors
-Colloshoo	Spell	Makes a person’s shoes stick to the ground
+Colloshoo	Spell	Makes a person's shoes stick to the ground
 Colovaria	Charm	Makes an object change color
 Confringo	Curse	Explode Flames on target
 Confundus	Charm	Used to confuse opponent
 Conjunctivitis	Curse	Damages opponents eyesight
 Cornflake Skin	Curse	Give a person cereal skin
-Crucio	Curse	Tortures opponent – Unforgivable
+Crucio	Curse	Tortures opponent - Unforgivable
 Cushioning	Charm	Helps cushion a fall
 Defodio	Spell	Dig out materials
-Deletrius	Spell	Counters “Prior Incatato”
+Deletrius	Spell	Counters "Prior Incatato"
 Densaugeo	Spell	Enlarges Teeth
 Deprimo	Spell	Wind Damaging Spell
 Depulso 	Charm	Drives an object away
@@ -44,7 +44,7 @@ Dissendium	Spell	Opens passageways
 Disillusionment 	Charm	Makes the target blend in to the surroundings
 Duro	Spell	Makes Objects Hard
 Ears to Kumquats	Spell	Give a person kumquat ears
-Ear Shriveling 	Curse	Cause a person’s ears to shrivel
+Ear Shriveling 	Curse	Cause a person's ears to shrivel
 Engorgio	Charm	Enlarges and item
 Ennervate	 Spell	Counters Stupefy
 Entrail Expelling 	Curse	Expel entrails from a body
@@ -53,14 +53,14 @@ Epoximise	Spell 	Binds objects together
 Erecto	Spell	Builds things
 Evanesco 	Spell	Makes things vanish
 Everte Statum	Spell	Throws a victim backwards
-Expecto Patronum	Charm	Creates a Patronus – A Defensive Guardian
+Expecto Patronum	Charm	Creates a Patronus - A Defensive Guardian
 Expelliarmus	Charm	Disarms your opponent
 Expulso	Spell	Makes Objects Explode
 Extinguishing	Spell	Puts out fires
 Ferula	Spell	Creates bandages
 Fianto Duri	Charm	Defensive Charm
 Fidelius	Charm	Hides a secret within someone
-Fiendfyre	Curse	Difficult to control, large fire curse – Dark Magic
+Fiendfyre	Curse	Difficult to control, large fire curse - Dark Magic
 Finestra 	Spell	Turns windows to dust
 Finite	Spell	Finishes spells in the casters area
 Finite Incantatem	Spell	Stops any current spells
@@ -77,17 +77,17 @@ Gripping 	Charm	Makes it easier to hold things
 Harmonia Nectere Passus	Spell	Mends broken things
 Homenum Revelio	Spell	Reveals humans nearby
 Homonculous	Charm	Lets a person track others movements on a map
-Homorphus	Charm	Lockhart’s Werewolf “cure”
+Homorphus	Charm	Lockhart's Werewolf "cure"
 Horcrux	Curse	Allows a wizard to put his soul into an object
 Illegibilus	Spell	Makes text unreadable
 Immobulus	Charm	Renders target immobile
 Impedimenta	Charm	Slows an advancing object
-Imperio	Curse	Controls a person – Unforgivable
+Imperio	Curse	Controls a person - Unforgivable
 Impervius	Charm	Makes an object repel water
 Incarcerous	Spell	Ties someone up
 Incendio	Spell	Starts a fire
-Lacarnum Inflamarae	Spell	Shoots a fireball from caster’s wand
-Langlock	Spell	Glues opponent’s tongue to roof of mouth
+Lacarnum Inflamarae	Spell	Shoots a fireball from caster's wand
+Langlock	Spell	Glues opponent's tongue to roof of mouth
 Legilimens	Spell	Allows the caster to read minds of victims
 Levicorpus	Spell	Hangs victim upside down by feet
 Liberacorpus	Spell	Counterspell
@@ -96,13 +96,13 @@ Lumos	Spell	Creates light at wand tip
 Lumos Maxima	Spell	Creates a Ball of Light that can brighten a room for a long period time
 Lumos Solem	Spell	Creates a strong beam of light from the wand
 Meteolojinx Recanto	Spell	Causes weather effect spells to stop
-Mimblewimble	Curse	Tongue Ties it’s victim
+Mimblewimble	Curse	Tongue Ties it's victim
 Mobiliarbus	Charm	Moves objects with wand
 Mobilicorpus	Spell	Moves unconscious bodies
 Morsmordre	Spell	Conjures the Dark Mark
 Muffliato	Spell	Prevents nearby people from listening to conversations
 Multicorfors 	Spell	Changes colors of objects (Lego Video Games)
-Nox	Spell	Counter to Lumos – turns off lights
+Nox	Spell	Counter to Lumos - turns off lights
 Oculus Reparo	Spell	Repairs Eyeglasses
 Obliteration	Charm	Removes things like footprints
 Obliviate	Charm	Erases memories
@@ -113,11 +113,11 @@ Partis Temporus	Spell	causes a gap in charmed barriers
 Periculum	Spell	Makes fireworks from the wand tip
 Permanent Sticking	Charm	Causes items to permanently stick to things
 Peskipiksi Pesternomi	Spell	Removes Pixies (maybe)
-Petrificus Totalus	Spell	Body – Bind
+Petrificus Totalus	Spell	Body - Bind
 Piertotum Locomotor	Spell	Animates statues and armor suits
 Portus	Charm	Makes an object a Portkey for traveling 
-Priori Incantatem	Spell	Result when brother wands duel, the loser’s wand shows all spells it recently cast
-Prior Incantato	Spell	Reveals a wands last spell / cast
+Priori Incantatem	Spell	Result when brother wands duel, the loser's wand shows all spells it recently cast
+Prior Incantato	Spell	Reveals a wands last spell cast
 Protego	Charm	Cause spells to reflect back to the sender.
 Protego Horribilis	Charm	Protects one from Dark Magic
 Protego Maxima	Charm	More powerful version of Protego Horribilis
@@ -148,7 +148,7 @@ Tarantallegra	Spell	Forces opponent to dance
 Tergeo	Spell	Cleans up messes
 Unbreakable Vow	Spell	If you break the vow you make, you die
 Ventus Duo	Spell	Stronger than Ventus
-Vera Verto	Spell	turns animals into water
+Vera Verto	Spell	Turns animals into water
 Verdimillious Duo	Spell	More powerful than Verdimillious 
 Vipera Evanesca	Spell	Makes Snakes Vanish
 Vulnera Sanentur	Spell	Heals victims
