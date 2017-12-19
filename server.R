@@ -12,6 +12,10 @@ shinyServer(function(input, output) {
   
   spells <- read.csv("spells_frame.csv")
   
+  spellsDescription <- spells[,c("Incantation", "Type", "Resulting.Effect")]
+  colnames(spellsDescription) <- c("Spell", "Type", "Effect")
+  output$spellsDescription <-  renderDataTable(spellsDescription)
+  
   selectedSpells <- reactive({
     if(input$filter == "custom"){
       selected <- spells[tolower(spells$Incantation) %in% tolower(input$spells),]
@@ -23,7 +27,7 @@ shinyServer(function(input, output) {
       selected <- spells[spells$Incantation %in% c("Expelliarmus", "Stupefy", "Protego", "Reducto"),]
     }
     if (input$filter == "popular") {
-      selected <- spells[spells$Incantation %in% c("Expecto Patronum", "Accio", "Wingardium Leviosa", "Alohomora"),]
+      selected <- spells[spells$Incantation %in% c("Accio", "Wingardium Leviosa", "Alohomora", "Lumos"),]
     }
     selected
   })
@@ -36,7 +40,7 @@ shinyServer(function(input, output) {
     p = nPlot(count ~ part, group =  "spell", data = movies, type = "multiBarChart", dom="spellMoviePlot")
     #p$chart(useInteractiveGuideline=TRUE)
     p$chart(stacked = TRUE)
-    p$set(width = 900, height = 800)
+    p$set(width = 600, height = 500)
     return(p)
   })
   
@@ -47,7 +51,7 @@ shinyServer(function(input, output) {
     p = nPlot(count ~ part, group =  "spell", data = books, type = 'multiBarChart', dom="spellBookPlot")
     #p$chart(useInteractiveGuideline=TRUE)
     p$chart(stacked = TRUE)
-    p$set(width = 900, height = 800)
+    p$set(width = 600, height = 500)
     return(p)
   })
   
@@ -59,7 +63,7 @@ shinyServer(function(input, output) {
     p = nPlot(count ~ part, group =  "spell", data = movies, type = "stackedAreaChart", dom="spellMoviePlotArea")
     p$chart(useInteractiveGuideline=TRUE)
     #p$chart(stacked = TRUE)
-    p$set(width = 900, height = 800)
+    p$set(width = 600, height = 500)
     return(p)
   })
   
@@ -70,7 +74,7 @@ shinyServer(function(input, output) {
     p = nPlot(count ~ part, group =  "spell", data = books, type = 'stackedAreaChart', dom="spellBookPlotArea")
     p$chart(useInteractiveGuideline=TRUE)
     #p$chart(stacked = TRUE)
-    p$set(width = 900, height = 800)
+    p$set(width = 600, height = 500)
     return(p)
   })
   

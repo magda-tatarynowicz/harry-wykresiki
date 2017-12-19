@@ -10,35 +10,37 @@ shinyUI(fluidPage(
   conditionalPanel(condition = "input.filter == 'custom'",
     fluidRow(
       column(12, align="center",
-             selectInput("spells", "Zaklęcia", spells, selected=c("Expelliarmus", "Avada Kedavra"), multiple = TRUE, width = '100%'))
+             selectInput("spells", "Spells", spells, selected=c("Expecto Patronum", "Riddikulus"), multiple = TRUE, width = '100%'))
   )),
   
   fluidRow(
     column(12, align="center", radioButtons("filter", NULL,
-                 c("Własne" = "custom",
-                   "Niewybaczalne" = "forbidden",
-                   "Używane w pojedynkach" = "duels",
-                   "Popularne" = "popular"), inline = TRUE))
+                 c("Custom filter" = "custom",
+                   "Unforgivable Curses" = "forbidden",
+                   "Duelling" = "duels",
+                   "Popular" = "popular"), inline = TRUE))
   ),
   
   tabsetPanel(
     tabPanel("Area chart",
              fluidRow(
                  column(6,
-                         h3("Filmy",align="center"),
+                         h3("Movies",align="center"),
                          showOutput("spellMoviePlotArea", "nvd3")),
                  column(6,
-                         h3("Książki",align="center"),
+                         h3("Books",align="center"),
                          showOutput("spellBookPlotArea", "nvd3"))
                  )),
    tabPanel("Bar chart",
           fluidRow(
                  column(6,
-                        h3("Filmy",align="center"),
+                        h3("Movies",align="center"),
                         showOutput("spellMoviePlot", "nvd3")),
                  column(6,
-                        h3("Książki",align="center"),
+                        h3("Books",align="center"),
                         showOutput("spellBookPlot", "nvd3"))
-                 )))
+                 )),
+   tabPanel("Spells' description",
+          dataTableOutput('spellsDescription')))
   )
 )
