@@ -41,6 +41,8 @@ shinyServer(function(input, output) {
     #p$chart(useInteractiveGuideline=TRUE)
     p$chart(stacked = TRUE)
     p$set(width = 600, height = 500)
+    p$yAxis(axisLabel ="Number of occurrence", width = 60)
+    p$xAxis(axisLabel = "Part")
     return(p)
   })
   
@@ -52,6 +54,8 @@ shinyServer(function(input, output) {
     #p$chart(useInteractiveGuideline=TRUE)
     p$chart(stacked = TRUE)
     p$set(width = 600, height = 500)
+    p$yAxis(axisLabel ="Number of occurrence", width = 60)
+    p$xAxis(axisLabel = "Part")
     return(p)
   })
   
@@ -64,6 +68,8 @@ shinyServer(function(input, output) {
     p$chart(useInteractiveGuideline=TRUE)
     #p$chart(stacked = TRUE)
     p$set(width = 600, height = 500)
+    p$yAxis(axisLabel ="Number of occurrence", width = 60)
+    p$xAxis(axisLabel = "Part")
     return(p)
   })
   
@@ -75,6 +81,8 @@ shinyServer(function(input, output) {
     p$chart(useInteractiveGuideline=TRUE)
     #p$chart(stacked = TRUE)
     p$set(width = 600, height = 500)
+    p$yAxis(axisLabel ="Number of occurrence", width = 60)
+    p$xAxis(axisLabel = "Part")
     return(p)
   })
   
