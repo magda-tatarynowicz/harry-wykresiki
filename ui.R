@@ -7,13 +7,14 @@ shinyUI(fluidPage(
   
   h1("Harry Potter", align="center"),
   
-  fluidRow(
-    column(12, align="center",
-           selectInput("spells", "Zaklęcia", spells, selected=c("Expelliarmus", "Avada Kedavra"), multiple = TRUE, width = '100%'))
-  ),
+  conditionalPanel(condition = "input.filter == 'custom'",
+    fluidRow(
+      column(12, align="center",
+             selectInput("spells", "Zaklęcia", spells, selected=c("Expelliarmus", "Avada Kedavra"), multiple = TRUE, width = '100%'))
+  )),
   
   fluidRow(
-    column(12, align="center", radioButtons("filter", "",
+    column(12, align="center", radioButtons("filter", NULL,
                  c("Własne" = "custom",
                    "Niewybaczalne" = "forbidden",
                    "Używane w pojedynkach" = "duels",
