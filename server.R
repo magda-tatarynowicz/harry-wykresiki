@@ -43,6 +43,7 @@ shinyServer(function(input, output) {
     p$set(width = 600, height = 500)
     p$yAxis(axisLabel ="Number of occurrence", width = 60)
     p$xAxis(axisLabel = "Part")
+    p$chart(reduceXTicks = FALSE)
     return(p)
   })
   
@@ -56,6 +57,7 @@ shinyServer(function(input, output) {
     p$set(width = 600, height = 500)
     p$yAxis(axisLabel ="Number of occurrence", width = 60)
     p$xAxis(axisLabel = "Part")
+    p$chart(reduceXTicks = FALSE)
     return(p)
   })
   
