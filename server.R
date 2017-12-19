@@ -13,14 +13,16 @@ shinyServer(function(input, output) {
   spells <- read.csv("spells_frame.csv")
   
   selectedSpells <- reactive({
-    selected <- spells[tolower(spells$Incantation) %in% tolower(input$spells),]
-    if (input$checkboxForbidden) {
+    if(input$filter == "custom"){
+      selected <- spells[tolower(spells$Incantation) %in% tolower(input$spells),]
+    }
+    if (input$filter == "forbidden") {
        selected <- spells[spells$Incantation %in% c("Avada Kedavra", "Crucio", "Imperio"),]
     }
-    if (input$checkboxFight) {
-      selected <- spells[spells$Incantation %in% c("Expelliarmus", "Stupefy", "Protego"),]
+    if (input$filter == "duels") {
+      selected <- spells[spells$Incantation %in% c("Expelliarmus", "Stupefy", "Protego", "Reducto"),]
     }
-    if (input$checkboxPopular) {
+    if (input$filter == "popular") {
       selected <- spells[spells$Incantation %in% c("Expecto Patronum", "Accio", "Wingardium Leviosa", "Alohomora"),]
     }
     selected

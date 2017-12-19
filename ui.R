@@ -13,9 +13,11 @@ shinyUI(fluidPage(
   ),
   
   fluidRow(
-    column(4, align="center", checkboxInput("checkboxForbidden", "Niewybaczalne", value = FALSE)),
-    column(4, align="center", checkboxInput("checkboxFight", "Używane w pojedynkach", value = FALSE)),
-    column(4, align="center", checkboxInput("checkboxPopular", "Najczęstsze", value = FALSE))
+    column(12, align="center", radioButtons("filter", "",
+                 c("Własne" = "custom",
+                   "Niewybaczalne" = "forbidden",
+                   "Używane w pojedynkach" = "duels",
+                   "Popularne" = "popular"), inline = TRUE))
   ),
   
   tabsetPanel(
