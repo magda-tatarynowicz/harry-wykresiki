@@ -1,9 +1,10 @@
 library(shiny)
+library(shinythemes)
 require(rCharts)
 
 spells <- read.csv("spells_frame.csv")[,1]
 
-shinyUI(fluidPage(
+shinyUI(fluidPage(theme = shinytheme("sandstone"),
   
   h1("Spells in the Harry Potter series", align="center"),
   
