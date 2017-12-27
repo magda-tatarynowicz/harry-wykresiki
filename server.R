@@ -18,7 +18,12 @@ shinyServer(function(input, output) {
   
   selectedSpells <- reactive({
     if(input$filter == "custom"){
-      selected <- spells[tolower(spells$Incantation) %in% tolower(input$spells),]
+      if(length(input$spells) > 0) {
+        selected <- spells[tolower(spells$Incantation) %in% tolower(input$spells),]
+      }
+      else {
+        selected <- NULL
+      }
     }
     if (input$filter == "forbidden") {
        selected <- spells[spells$Incantation %in% c("Avada Kedavra", "Crucio", "Imperio"),]
@@ -34,6 +39,9 @@ shinyServer(function(input, output) {
    
   output$spellMoviePlot <- renderChart({
     movies <- selectedSpells();
+    if(is.null(movies)) {
+      return(NULL);
+    }
     movies[,10] <- movies[,10] + movies[,11]
     movies <- meltSpells(movies[,c(1,4:10)])
 
@@ -48,6 +56,9 @@ shinyServer(function(input, output) {
   
   output$spellBookPlot <- renderChart({
     books <- selectedSpells();
+    if(is.null(books)) {
+      return(NULL);
+    }
     books <- meltSpells(books[,c(1,12:18)])
     
     p = nPlot(count ~ part, group =  "spell", data = books, type = 'multiBarChart', dom="spellBookPlot")
