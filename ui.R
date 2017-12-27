@@ -29,7 +29,7 @@ shinyUI(fluidPage(theme = shinytheme("sandstone"),
   
   tabsetPanel(
    id ="activeTab",
-   tabPanel("Spells' visualization",
+   tabPanel("Spells visualization",
             conditionalPanel(
               condition = "input.filter != 'custom' || input.spells != null",
               splitLayout(
@@ -42,7 +42,7 @@ shinyUI(fluidPage(theme = shinytheme("sandstone"),
               condition = "input.filter == 'custom' && input.spells == null",
               h4("Please select spells", align="center"))
             ),
-   tabPanel("Spells' description",
+   tabPanel("Spells description",
           dataTableOutput('spellsDescription')))
   )
 )
