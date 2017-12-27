@@ -6,6 +6,8 @@ spells <- read.csv("spells_frame.csv")[,1]
 
 shinyUI(fluidPage(theme = shinytheme("sandstone"),
   tags$head(tags$style(HTML("#DataTables_Table_0_wrapper { margin-top: 16px; }"))),
+  tags$head(tags$link(rel="shortcut icon", href="https://png.icons8.com/material/50/000000/harry-potter.png")),
+  tags$head(tags$title("Spells in Harry Potter")),
                   
   h1("Spells in the Harry Potter series", align="center"),
   
